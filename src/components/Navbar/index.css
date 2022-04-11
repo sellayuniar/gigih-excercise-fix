@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+.link {
+    padding: 8px 100px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s all;
+    
+}
+
+
+
+
+
+
+
+
