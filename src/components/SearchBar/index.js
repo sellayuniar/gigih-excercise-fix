@@ -1,9 +1,13 @@
-import "./index.css";
+// import "./index.css";
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+
 const SearchBar = ({ handleFormSubmit, handleFormChange, query }) => {
     return (
         <form onSubmit={handleFormSubmit}>
-            <input type="text" value={query} onChange={handleFormChange} placeholder="search here!" required />
-            <button className="fa fa-search" type="submit"></button>
+           <TextField id="outlined-size-small" label="Search Here!" defaultValue="Small"
+          size="small"  value={query} onChange={handleFormChange} required/> 
+            <Button variant="contained" type="submit">Search</Button>
         </form>
     )
 }
